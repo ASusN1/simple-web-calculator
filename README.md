@@ -1,1 +1,1 @@
-This is a super simple calculator. It able to do + , -, / and *. You can calculate multiple number at the same time like 2-3+10/5
+This is a simple calculator project. It can do +, -, *, and / math. You can type numbers and click buttons to calculate answers like 5+5 or 10/2. It also has a C button to clear the screen and a dot for decimals

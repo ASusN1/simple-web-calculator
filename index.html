@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <div class="buttons">
+                <button class="clear" onclick="clearDisplay()">C</button>
+                <button class="operator" onclick="appendValueToDisplay('/')">/</button>
+                <button class="operator" onclick="appendValueToDisplay('*')">*</button>
+                <button class="operator" onclick="appendValueToDisplay('-')">-</button>
+                
+                <button onclick="appendValueToDisplay('7')">7</button>
+                <button onclick="appendValueToDisplay('8')">8</button>
+                <button onclick="appendValueToDisplay('9')">9</button>
+                <button class="operator" onclick="appendValueToDisplay('+')">+</button>
+                
+                <button onclick="appendValueToDisplay('4')">4</button>
+                <button onclick="appendValueToDisplay('5')">5</button>
+                <button onclick="appendValueToDisplay('6')">6</button>
+                <button onclick="appendValueToDisplay('.')">.</button>
+                
+                <button onclick="appendValueToDisplay('1')">1</button>
+                <button onclick="appendValueToDisplay('2')">2</button>
+                <button onclick="appendValueToDisplay('3')">3</button>
+                <button onclick="appendValueToDisplay('0')">0</button>
+                
+                <button class="equal" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

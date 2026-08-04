@@ -1,0 +1,1 @@
+This is a super simple calculator. It able to do + , -, / and *. You can calculate multiple number at the same time like 2-3+10/5
